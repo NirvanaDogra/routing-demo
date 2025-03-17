@@ -1,14 +1,15 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      <h1> This is the home page at  '/'</h1>
+      <h1> This is the home page at  '/' we use LINK</h1>
       <ul>
-        <li><a href="/profile">profile</a></li>
-        <li><a href="/about">about</a></li>
-        <li><a href="/login">Login takes to /login not /auth/login</a></li>
-        <li><a href="/register">Login takes to /register not /auth/register</a></li>
+        <li><Link href="/profile">profile</Link></li>
+        <li><Link href="/products">Products</Link></li>
+        <li><Link href="/about">about</Link></li>
+        <li><Link href="/login">Login takes to /login not /auth/login</Link></li>
+        <li><Link href="/register">Login takes to /register not /auth/register</Link></li>
       </ul>
 
     </div>
