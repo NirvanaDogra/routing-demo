@@ -13,12 +13,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header style={{ backgroundColor: "lightblue" }}>
+        <header style={{ backgroundColor: "lightgreen" }}>
           <p> This is a header </p>
         </header>
         {children}
         <footer style={{ backgroundColor: "lightgreen" }}>
           <p> This is a footer </p>
+          <img src="/image.png" width={400}/>
         </footer>
       </body>
     </html>

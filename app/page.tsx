@@ -7,6 +7,7 @@ export default function Home() {
       <ul>
         <li><Link href="/profile">profile</Link></li>
         <li><Link href="/products">Products</Link></li>
+        <li><Link href="/blog">Blog</Link></li>
         <li><Link href="/about">about</Link></li>
         <li><Link href="/login">Login takes to /login not /auth/login</Link></li>
         <li><Link href="/register">Login takes to /register not /auth/register</Link></li>
